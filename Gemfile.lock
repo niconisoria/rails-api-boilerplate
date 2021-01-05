@@ -207,7 +207,6 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.1.0)
   rspec-rails
-  rubocop
   rubocop-rails
   rubocop-rspec
   spring
