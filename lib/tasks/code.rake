@@ -3,6 +3,6 @@
 namespace :code do
   task analyze: :environment do
     sh 'bundle exec brakeman . -z -q'
-    sh 'bundle exec rubocop .'
+    Rake::Task['rubocop'].execute
   end
 end
