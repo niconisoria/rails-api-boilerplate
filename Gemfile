@@ -9,7 +9,6 @@ ruby '3.0.1'
 gem 'rails', '~> 6.1.0'
 
 # General
-gem 'active_model_serializers'
 gem 'yaaf'
 
 # Use sqlite3 as the database for Active Record
