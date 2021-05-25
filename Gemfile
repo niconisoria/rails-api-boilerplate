@@ -14,9 +14,9 @@ gem 'sqlite3', '~> 1.4'
 gem 'yaaf'
 
 group :development, :test do
-  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'dotenv-rails'
   gem 'factory_bot_rails'
+  gem 'pry-rails'
   gem 'rspec-rails'
 end
 
