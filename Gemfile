@@ -7,10 +7,10 @@ ruby '3.0.1'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'pg'
 gem 'puma', '~> 5.0'
 gem 'rack-cors'
 gem 'rails', '~> 6.1.0'
-gem 'sqlite3', '~> 1.4'
 gem 'yaaf'
 
 group :development, :test do
