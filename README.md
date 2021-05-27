@@ -1,6 +1,6 @@
 # Rails API Boilerplate
 
-Start your project fast. Save time with an already setup and configurated boilerplate.
+Start your project fast. Save time with an already configurated boilerplate.
 
 ## How to start
 
@@ -20,6 +20,3 @@ Please refer to `.env.sample`  and the generated `.env` in order to configure th
 ## CORS
 
 Please refer to `config/initializers/cors.rb` in order to set the allowed origins, allowed headers and more.
-
-
-
