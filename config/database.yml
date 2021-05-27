@@ -7,8 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV.fetch("DB_NAME") %>_development
+  database: <%= Rails.application.class.module_parent.name.underscore + '_development' %>
 
 test:
   <<: *default
-  database: <%= ENV.fetch("DB_NAME") %>_test
+  database: <%= Rails.application.class.module_parent.name.underscore + '_test' %>
+
+production:
+  <<: *default
+  url: <%= ENV.fetch("DB_URL") %>
